@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.text-info h1 {
+    padding: 20px 20px;
+    color: #111;
+    font-size: 50px;
+    background-image: url(yellow.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px 190px;
+}
+
+.text-info p {
+    padding: 10px 10px;
+    color: #111;
+    font-size: 14px;
+}
+
+.img-books {
+    width: 100%;
+}
+.intro {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 100px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 45px;
+}
+.body_bg
+{
+    background-image: url(pencil.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.pencils
+{
+    background-image: url(pencil-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.fiction_img
+{
+    width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .text-info
+    {
+        width: 50%;
+        float: right;
+    }
+    .text-info h1
+    {
+        padding: 20px 20px;
+        font-size: 50px;
+        background-image: url();
+    }
+   .text-info p
+   {
+       padding: 20px 0px 0px 30px;
+       font-size: 20px;
+   }
+   .img-strokes
+   {
+       background-image: url(yellow.jpg);
+       background-size: 260px 200px;
+       background-repeat: no-repeat;
+       background-position: 90% 5%;
+   }
+   .img-books
+   {
+       float: left;
+       width: 50%;
+       padding-top: 40px;
+       padding-left: 20px;
+       padding-right: 10px;
+   }
+  .body_bg
+   {
+       background-image: url(pencil-bg.jpg);
+   }
+  .pencils
+   {
+        background-image: url();
+   }
+   .intro
+   {
+        font-size: 25px;
+        padding-top: 100px;
+        padding-left: 120px;
+        padding-right: 120px;
+        padding-bottom: 45px;
+   }
+
+    .fiction_img
+    {
+        width: 100%;
+    }
+   .text_fiction
+    {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
